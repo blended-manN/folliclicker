@@ -1,0 +1,121 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(35,35,35);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#unity-container { position: relative; }
+#unity-container.unity-desktop { margin-top: 50px;}
+#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-canvas { background: #231F20; border-radius:25px;}
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-loading-bar { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); display: none }
+#unity-logo { width: 154px; height: 130px; background: url('unity-logo-dark.png') no-repeat center }
+#unity-progress-bar-empty { width: 141px; height: 18px; margin-top: 10px; margin-left: 6.5px; background: url('progress-bar-empty-dark.png') no-repeat center }
+#unity-progress-bar-full { width: 0%; height: 18px; margin-top: 10px; background: url('progress-bar-full-dark.png') no-repeat center }
+#unity-footer { position: relative; margin-inline: auto;  width: 93%;}
+.unity-mobile #unity-footer { display: none }
+#unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center;  }
+#unity-build-title { float: left; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px;  }
+#unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+#unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
+
+.header {
+    background-color: antiquewhite;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.column {
+    width: 75%;
+    padding: 20px;
+    height: 500px;
+    margin-inline: auto;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+.calculator {
+    background-color: antiquewhite;
+    color: indianred;
+    width: 75%;
+    padding: 30px;
+    height: 600px;
+    border-radius: 25px;
+}
+
+
+h1 {
+    background: antiquewhite;
+    text-align: center;
+    color: indianred;
+}
+
+h2 {
+    margin-inline: auto;
+    width: 50%;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 50px;
+    background-color: indianred;
+    color: antiquewhite;
+}
+
+h3 {
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    
+    color: indianred;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color:indianred;
+}
+
+
+
+.topnav {
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    margin-bottom: 9px;
+}
+
+    .topnav a {
+        color: antiquewhite;
+        font-size: 25px;
+        padding: 10px;
+        text-decoration: none;
+    }
+
+        .topnav a:hover {
+            background-color: aliceblue;
+            color: palevioletred;
+        }
+
+
+img {
+    width: 71%;
+    border-radius: 25px;
+    opacity: 1.0;
+}
+
+    img:hover {
+        opacity: 0.75;
+    }
